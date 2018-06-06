@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+
+/* default style */
+body {
+  background-color:#ff1493;
+}
+
+@media (min-width: 500px) {
+    /* style applied if window's width is 500px or more */
+    body {
+        background-color: #ff1493;
+    }
+}
+
+@media (min-width: 750px) {
+    /* style applied if window's width is 750px or more */
+    body {
+        background-color: #ff69b4;
+    }
+}
+
+@media (min-width: 1000px) {
+    /* style applied if window's width is 1000px or more */
+    body {
+        background-color: #ff1493;
+    }
+}
